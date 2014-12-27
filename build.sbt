@@ -1,8 +1,12 @@
+import bintray.Keys._
+
 name := "play-scalajs-sourcemaps"
 
 version := "0.1.0-SNAPSHOT"
 
 organization := "com.vmunier"
+
+homepage := Some(url("https://github.com/vmunier/play-scalajs-sourcemaps"))
 
 crossScalaVersions := Seq("2.10.4", "2.11.2")
 
@@ -23,3 +27,6 @@ pomExtra := (
     </developer>
   </developers>
 )
+publishMavenStyle := true
+repository in bintray := "scalajs"
+bintrayPublishSettings
