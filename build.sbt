@@ -2,7 +2,7 @@ import bintray.Keys._
 
 name := "play-scalajs-sourcemaps"
 
-version := "0.1.0-SNAPSHOT"
+version := "0.1.0"
 
 organization := "com.vmunier"
 
